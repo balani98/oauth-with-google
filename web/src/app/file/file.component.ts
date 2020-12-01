@@ -14,7 +14,7 @@ export class FileComponent implements OnInit {
   constructor(private router:Router,private route:ActivatedRoute,private _service:ConnectionService) { 
     this.filename=this.router.getCurrentNavigation().extras.state.example; 
   }
-  path :string="C:\\Users\\deepanshu.balani\\Desktop\\part 2 A\\flask-api\\api\\static\\"
+  basePath :string="http://localhost:8081/";
   ngOnInit(): void {
   
   

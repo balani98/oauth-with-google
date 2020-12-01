@@ -1,4 +1,4 @@
-upload_location="C:\\Users\\deepanshu.balani\\Desktop\\Part 1\\api\\static"
+upload_location="D:\\static"
 from flask import Flask,jsonify,request,make_response
 import logging
 from datetime import datetime,timedelta
