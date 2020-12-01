@@ -1,6 +1,6 @@
 <div class="container">
     <h3>Login Now</h3>
-  <div class="card">
+  <div>
       <form #form=ngForm (ngSubmit)="login(form.value)">
          <div class="form-group">
              <label for="email">Email</label>
@@ -36,4 +36,10 @@
           </div>
       </form>
    </div>
+   <div style="margin-left:200px">
+     <h5>Login with</h5> 
+     <div>
+      <i class="fa fa-google"(click)=" signInWithGoogle()" aria-hidden="true"></i>
+     </div>
+  </div>
 </div>
